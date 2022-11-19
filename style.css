@@ -1,0 +1,182 @@
+* {
+    margin: 1;
+    padding: 1;
+    box-sizing: border-box;
+}
+
+html, body{
+    min-height: 80%;
+}
+
+/* header */
+header{
+    padding: 1.5rem 0 0 1rem;
+}
+
+.logo{
+    width: 4rem;
+}
+
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+
+/* main*/
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+/* section 1 */
+
+.section1 {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgsection1{
+    width: 100%;
+}
+
+.section1 button{
+    color: #fff;
+    background-color: coral;
+    border: none;
+}
+
+/* section 2 */
+
+.section2 {
+    background-color: #0000(0, 0, 70);
+    color: #fff;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.section2 h1{
+    color: coral;
+    margin-bottom: 1rem;
+}
+
+hr{
+    margin: 1rem 0;
+}
+
+/* section 3 */
+
+.section3{
+    margin-top: 1rem;
+}
+
+.content-3{
+    display: flex;
+    height: 10rem;
+    margin-bottom: 1rem;
+}
+
+.imgcontent{
+    height: 100%;
+    padding: 0.5rem;
+}
+
+.imgcontent img{
+    height: 100%;
+}
+
+.textcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* Desktop */
+
+@media screen and (min-width: 680px) main{
+    display: flex;
+    padding: 0 5rem;
+    margin-top: 2rem;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    display: block;
+    display: flex;
+    align-items: center;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu li{
+    margin-left: 1rem;
+}
+
+/* section 1 desktop */
+
+.section1desktop {
+    display: flex;
+}
+
+/* section 1 */
+.section1{
+    padding: 0;
+    margin-right: 1rem;
+}
+
+.imgsection1{
+    height: 20rem;
+    overflow: hidden;
+}
+
+.textsection1{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.textsection1 h1,
+.textsection1 div{
+    width: 50%;
+}
+
+.textsection1 h1{
+    font-size: 3vw;
+}
+
+.section1desktop .section1{
+    width: 70%;
+}
+
+.section1desktop .section2 {
+    width: 30%;
+}
+
+/* section 2 */
+
+.section2{
+    margin: 0;
+}
+
+/* section 3 */
+
+.section3{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.content-3{
+    width: 30%;
+}
